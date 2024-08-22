@@ -1,0 +1,43 @@
+@media (min-width: 1200px) {
+  .ul-links {
+    margin-top: 1rem !important;
+    display: flex !important;
+    gap: 1rem !important;
+  }
+}
+
+@media (min-width: 1500px) {
+  .ul-links {
+    margin-top: 1.5rem !important;
+    display: flex !important;
+    gap: 2rem !important;
+  }
+}
+
+
+@media (max-width:600px){
+  .logo{
+    margin-left:10px !important;
+    justify-content:space-around !important;
+  }
+  .logo-link{
+    width:80% !important;
+  }
+}
+
+.active > .menu{
+  background:var(--background-primary);
+}
+
+.active{
+  background: var(--first-color) !important;
+}
+
+
+@media(min-width:1200px), (max-width:1400px){
+  .menu> .ul-links{
+    padding-left:0px;
+    padding-right:32px;
+    gap:0.9rem !important;
+  }
+}

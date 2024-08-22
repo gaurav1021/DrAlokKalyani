@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--======== Css =========== -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--======= Google Fonts =========-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--======= Bootstrap icons =======-->
+    <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+
+    <title>
+      
+      Delhi Arthritis and Rheumatology Clinic
+    </title>
+  </head>
+
+  <body onscroll="onScroll()">
+    <header>
+      <nav class="scroll" id="nav">
+        <div class="logo">
+          <a class="logo-link" href="#">
+            <img class="new-logo" src="./images/logo-wide.png" alt="logo">
+            <h2 class="name-logo">Delhi Arthritis and Rheumatology Clinic</h2>
+          </a>
+          <div class="menu-mobile" id="menu-mobile">
+            <button class="open">
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g filter="url(#filter0_d_61_152)">
+                  <path
+                    d="M10 20H30"
+                    stroke="var(--first-color)"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M10 12H30"
+                    stroke="var(--first-color)"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M18 28L30 28"
+                    stroke="var(--first-color)"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g>
+                <defs>
+                  <filter
+                    id="filter0_d_61_152"
+                    x="-4"
+                    y="0"
+                    width="48"
+                    height="48"
+                    filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB"
+                  >
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix
+                      in="SourceAlpha"
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha"
+                    />
+                    <feOffset dy="4" />
+                    <feGaussianBlur stdDeviation="2" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in2="BackgroundImageFix"
+                      result="effect1_dropShadow_61_152"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="effect1_dropShadow_61_152"
+                      result="shape"
+                    />
+                  </filter>
+                </defs>
+              </svg>
+            </button>
+            <button class="close">
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M30 10L10 30M10 10L30 30"
+                  stroke="#FFFAF1"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="menu">
+          <ul class="ul-links">
+            <li><a href="../home/index.html">Home</a></li>
+            <li><a href="#" id="" role="button">Services Offered</a></li>
+            <li><a href="../what-to/what-to-exp.html">Education</a></li>
+            <li><a href="../myth/myths.html">Myth related to arthritis</a></li>
+            <li class="nav-agende"><a href="./pages/contact/contact-us.html">Contact</a></li>
+            <li><a href="../gallery/gallery.html">Gallery</a></li>
+          </ul>
+          <div class="nav-social">
+            <a href="#"><i class="bi bi-facebook nav-icon"></i></a>
+            <a href="#"><i class="bi bi-instagram nav-icon"></i></a>
+            <a href="#"><i class="bi bi-youtube nav-icon"></i></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+    <main class="main">
+      <!------- HOME -------------->
+      <section class="home grid" id="home">
+        <div class="home-container">
+          <div class="home-content">
+            <iframe id="slide" src="./home-slider.html" width="100%" height="100%"></iframe>
+          </div>
+
+          <!-- <div class="card-content">
+            <div class="card">
+              <div class="card-img card-img-1"></div>
+              <h4><i class="bi bi-currency-dollar"></i> Preço</h4>
+              <h6>Consultas A Partir De <span>R$100,00</span></h6>
+              <h6>Exames A Partir De <span>R$80,00</span></h6>
+            </div>
+
+            <div class="card">
+              <div class="card-img card-img-2"></div>
+              <h4><i class="bi bi-stopwatch"></i> Atendimento</h4>
+              <h6>Segunda - Sexta <span>8:00h - 18:00h</span></h6>
+              <h6>Sábado <span>8:00h - 14:00h</span></h6>
+            </div>
+
+            <div class="card">
+              <div class="card-img card-img-3"></div>
+              <h4><i class="bi bi-telephone"></i> Contato</h4>
+              <h6>Telefone <span>(99) 9999-9999</span></h6>
+              <h6>Localização <span>Praça Dr. Lorem, 9999</span></h6>
+            </div>
+          </div> -->
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="about-content">
+        <div class="about-text">
+          <div class="exercise">
+            <span class="sub-title-span topRevealSmall">Dr. Alok Kalyani</span>
+            <h2 class="title-about topRevealMedium">MBBS, MD, AFIH Fellow Rheumatology Occupational Physician</h2>
+            <p class="about-description topRevealLarge">
+              Dr Alok Kalyani is a well known Consultant Physician & Rheumatologist in north-west Delhi. Presently Dr Alok Kalyani is providing services at Clinic and Max Hospital, Shalimar Bagh.
+            </p>
+            <div>
+              <button onclick="window.location.href='#';" class="doc-read-more">Read More</button>
+            </div>
+            <div class="card">
+              <div class="card-img card-img-2"></div>
+              <h4><i class="bi bi-stopwatch"></i>  Schedule</h4>
+              <h6>
+                Monday - Saturday
+              </h6> 
+              <span>
+                09:00AM - 10:30AM
+              </span>
+              <span>
+                05:00PM - 8:30PM
+              </span>
+            </div>
+          </div>  
+        </div> 
+        <div class="about-img bottomRevealMedium">
+          <img src="./images/dr image.png" alt="imagem de medico sorrindo ao lado de uma paciente mulher e seu filho" />
+        </div>
+      </section>
+      <!-- <div class="card-content">
+        <div class="card">
+          <div class="card-img card-img-1"></div>
+          <h4><i class="bi bi-currency-dollar"></i> Preço</h4>
+          <h6>Consultas A Partir De <span>R$100,00</span></h6>
+          <h6>Exames A Partir De <span>R$80,00</span></h6>
+        </div>
+
+        <div class="card">
+          <div class="card-img card-img-2"></div>
+          <h4><i class="bi bi-stopwatch"></i> Schedule</h4>
+          <h6>
+            Monday - Saturday
+          </h6> 
+          <span>
+            09:00AM - 10:30AM
+          </span>
+          <span>
+            05:00PM - 8:30PM
+          </span>
+        </div>
+
+        <div class="card">
+          <div class="card-img card-img-3"></div>
+          <h4><i class="bi bi-telephone"></i> Contato</h4>
+          <h6>Telefone <span>(99) 9999-9999</span></h6>
+          <h6>Localização <span>Praça Dr. Lorem, 9999</span></h6>
+        </div>
+      </div> -->
+
+<!------- INTRO ------------>
+<section class="intro">
+  <div class="welcome-text">
+    <h2>Welcome to Arthritis and Rheumatic Diseases Center</h2>
+    <br/>
+    <span class="about-description topRevealLarge">Rheumatology is a sub-specialty of internal medicine and paediatrics, involved with the diagnosis and therapy of problems arising in the joints and soft tissues, as well as autoimmune diseases, vasculitis, and heritable connective tissue disorders. Clinicians who trained in rheumatology are called Rheumatologists.</span>
+    <br/><br/>
+    <span class="about-description topRevealLarge">Rheumatologists diagnose and focus on non-surgical treatment of arthritis and related rheumatic diseases, such as lupus, rheumatoid arthritis, gout, Fibromyalgia and other disorders of the joints and connective tissues of the body.</span>
+    <br/><br/>
+    <span class="about-description topRevealLarge">The simplest way to understand rheumatology is that it deals with ‘aches and pains’ in the joints, spine, muscles and related tissues that help us move our body (also called musculoskeletal or locomotor system). In vernacular it is called ‘Gathia-Bai’. The specialists who deal with rheumatological (‘Gathia-bai’) diseases are known as Rheumatologists.</span>
+    </br></br>
+    <div>
+      <button onclick="window.location.href='#';" class="welcome-read-more">Read More</button>
+    </div>
+  </div>
+  <div class="reviews">
+    <h2>Client Reviews</h2>
+    <iframe id="review-slide" src="./reviews.html" width="100%" height="200px"></iframe>
+  </div>
+</section>
+
+
+
+      <!------- SERVICES ------------>
+      <!-- <section class="service grid">
+        <span class="sub-title-span bottomRevealSmall">SERVIÇOS</span>
+        <h2 class="title-service bottomRevealMedium">Como podemos ajudá-lo a se sentir melhor?</h2>
+
+        <div class="card-service-content">
+          <div class="card-service topRevealSmall">
+            <i class="bi bi-check-circle"></i>
+            <h4>Problemas digestivos</h4>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim.
+            </p>
+          </div>
+          <div class="card-service topRevealMedium">
+            <i class="bi bi-check-circle"></i>
+            <h4>Saúde Hormonal</h4>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim.
+            </p>
+          </div>
+          <div class="card-service topRevealLarge">
+            <i class="bi bi-check-circle"></i>
+            <h4>Bem-estar mental</h4>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim.
+            </p>
+          </div>
+          <div class="card-service bottomRevealSmall">
+            <i class="bi bi-check-circle"></i>
+            <h4>Cuidados Pediátricos</h4>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim.
+            </p>
+          </div>
+          <div class="card-service bottomRevealMedium">
+            <i class="bi bi-check-circle"></i>
+            <h4>Autoimune e Inflamação</h4>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim.
+            </p>
+          </div>
+          <div class="card-service bottomRevealLarge">
+            <i class="bi bi-check-circle"></i>
+            <h4>Saúde do Coração</h4>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim.
+            </p>
+          </div>
+        </div>
+      </section> -->
+
+      <!------- AGREEMENTS ------------>
+      <!-- <section class="agreements grid">
+        <h2 class="title-agreements">
+          Atendemos aos principais <strong>convênios</strong>
+        </h2>
+
+        <div class="agreements-contents">
+          <div class="agreement-img">
+            <img src="./assets/images/amil.jpg" alt="Logo da Amil" />
+          </div>
+          <div class="agreement-img">
+            <img src="./assets/images/ameplan.jpg" alt="Logo da Ameplan" />
+          </div>
+          <div class="agreement-img">
+            <img src="./assets/images/bradesco.png" alt="Logo do Bradesco" />
+          </div>
+          <div class="agreement-img">
+            <img src="./assets/images/notredame.jpg" alt="Logo da Notre dame" />
+          </div>
+          <div class="agreement-img">
+            <img src="./assets/images/itau.jpg" alt="Logo do Itau" />
+          </div>
+          <div class="agreement-img">
+            <img src="./assets/images/porto.jpg" alt="Logo da Porto" />
+          </div>
+          <div class="agreement-img">
+            <img src="./assets/images/fesp.jpg" alt="Logo da Fesp" />
+          </div>
+        </div>
+      </section> -->
+
+      <!------- BANNER ------------>
+      <!-- <section class="banner-container">
+        <div class="banner">
+          <h2 class="title-banner">Comece a cuidar de sua saúde agora mesmo</h2>
+          <button class="banner-button">
+            <a href="#contact"
+              ><i class="bi bi-whatsapp"></i> Agende sua consulta</a
+            >
+          </button>
+        </div>
+      </section> -->
+
+      <!------- EXPERTS ------------>
+      <!-- <section class="experts grid" id="experts">
+        <span class="sub-title-span">ESPECIALIDADES</span>
+        <h2 class="title-experts">Nossas Especialidades</h2>
+
+        <div class="experts-container">
+          <div class="experts-content">
+            <div class="experts-card topRevealSmall">
+              <img src="./assets/images/cardiologia.jpg" alt="Cardiologia" />
+              <h4>Cardiologia</h4>
+              <p>
+                A cardiologia é uma especialização da área de Medicina que cuida
+                do diagnóstico e tratamento de todas as doenças relacionadas ao
+                coração e ao sistema circulatório.
+              </p>
+            </div>
+            <div class="experts-card topRevealMedium">
+              <img src="./assets/images/clinico-geral.jpg" alt="clinico-geral" />
+              <h4>Clínico Geral</h4>
+              <p>
+                O clínico Geral conhece o corpo humano como um todo e está
+                preparado para tratar e acompanhar várias doenças que não
+                precisam do acompanhamento mais individual de um especialista.
+              </p>
+            </div>
+            <div class="experts-card topRevealLarge">
+              <img src="./assets/images/gastroenterologia.jpg" alt="gastroenterologia" />
+              <h4>Gastroenterologista</h4>
+              <p>
+                Gastroenterologista é a especialidade que trata da função normal
+                e das doenças do esôfago, estômago, intestino delgado, cólon,
+                reto, pâncreas, vesícula biliar, ductos biliares e fígado.
+              </p>
+            </div>
+            <div class="experts-card topRevealSmall">
+              <img src="./assets/images/geriatra.jpg" alt="geriatra" />
+              <h4>Médico da Família</h4>
+              <p>
+                Esse médico trata as mudanças anatômicas, funcionais e
+                psicológicas próprias do processo natural de envelhecimento, e
+                das doenças nessa fase da vida.
+              </p>
+            </div>
+            <div class="experts-card topRevealMedium">
+              <img src="./assets/images/pediatria.jpg" alt="pediatria" />
+              <h4>Pediatria</h4>
+              <p>
+                A pediatria é o ramo da medicina que se dedica ao cuidado de
+                crianças e adolescentes, desde o nascimento até os 18 anos.
+              </p>
+            </div>
+            <div class="experts-card topRevealLarge">
+              <img src="./assets/images/medico-vascular.jpg" alt="medico-vascular" />
+              <h4>Médico vascular</h4>
+              <p>
+                O cirurgião vascular é o médico responsável pelas doenças que
+                acometem os sistemas arterial, venoso e linfático.
+              </p>
+            </div>
+            <div class="experts-card topRevealSmall">
+              <img src="./assets/images/neurologia.jpg" alt="neurologia" />
+              <h4>Neurologista</h4>
+              <p>
+                O neurologista se dedica ao estudo e tratamento de problemas do
+                sistema nervoso. As doenças mais comuns tratadas são as dores de
+                cabeça, cefaleia e enxaqueca.
+              </p>
+            </div>
+            <div class="experts-card topRevealMedium">
+              <img src="./assets/images/oftalmologista.jpg" alt="oftalmologista" />
+              <h4>Oftalmologista</h4>
+              <p>
+                O oftalmologista é o médico especialista que se dedica ao estudo
+                e tratamento das doenças e problemas de refração dos olhos.
+              </p>
+            </div>
+            <div class="experts-card topRevealLarge">
+              <img src="./assets/images/ortopedia.jpg" alt="ortopedia" />
+              <h4>Ortopedia</h4>
+              <p>
+                A ortopedia é a especialidade da medicina que trata as
+                patologias do sistema músculo-esquelético.
+              </p>
+            </div>
+            <div class="experts-card topRevealSmall">
+              <img src="./assets/images/psicologo.jpg" alt="psicologo" />
+              <h4>Psicólogo</h4>
+              <p>
+                O psicólogo é o profissional responsável por estudar e analisar
+                questões internas do indivíduo que refletem em seu
+                comportamento.
+              </p>
+            </div>
+            <div class="experts-card topRevealMedium">
+              <img src="./assets/images/urologista.jpg" alt="urologista" />
+              <h4>Urologia</h4>
+              <p>
+                Urologia é a especialidade responsável pelo tratamento dos
+                problemas relacionados ao trato urinário de homens e mulheres e
+                reprodutor dos homens.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!------- ABOUT ------------>
+      <!-- <section class="about grid" id="about"> -->
+        <!-- <div class="about-content">
+          <div class="about-text">
+            <span class="sub-title-span topRevealSmall"> SOBRE</span>
+            <h2 class="title-about topRevealMedium">Entenda quem somos e por que existimos</h2>
+            <p class="about-description topRevealLarge">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim. Amet minim mollit
+              non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+              officia consequat duis enim. Amet minim mollit non deserunt
+              ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+              duis enim.
+            </p>
+          </div>
+
+          <div class="about-img bottomRevealMedium">
+            <img src="./assets/images/about.png" alt="imagem de medico sorrindo ao lado de uma paciente mulher e seu filho" />
+          </div>
+        </div> -->
+
+        <!-- <div class="stats">
+          <div class="stat">
+            <h3>+ 3.500</h3>
+            <p>Pacientes atendidos</p>
+          </div>
+
+          <div class="stat">
+            <h3>+ 54</h3>
+            <p>Especialistas disponíveis</p>
+          </div>
+
+          <div class="stat">
+            <h3>19</h3>
+            <p>Consultorios no Brasil</p>
+          </div>
+
+          <div class="stat">
+            <h3>+ 10</h3>
+            <p>Anos no mercado</p>
+          </div>
+        </div>
+      </section> -->
+
+      <!------- DEPOIMENTS ------------>
+      <!-- <section class="depositions section" id="testimonials">
+        <div class="container">
+          <span class="sub-title-span topRevealSmall">DEPOIMENTOS</span>
+          <h2 class="depositions-title topRevealMedium">
+            O que os clientes dizem sobre o DoctorCare
+          </h2>
+
+          <div class="testimonials">
+            <div class="swiper-wrapper">
+              <div class="testimonial bottomRevealSmall">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Modi hic est unde quae aliquid, repellat odio, rem saepe
+                    sunt expedita quas. Deleniti hic officia qui aut molestiae
+                    odit voluptates ratione!
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/37.jpg"
+                      alt="foto de usuario"
+                    />
+                    Wanessa Silva
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial bottomRevealMedium">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Neque veritatis animi ipsam repellat! Non impedit quod saepe
+                    quae voluptates nemo omnis voluptatem.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/men/22.jpg"
+                      alt="foto de usuario"
+                    />
+                    João Filho
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial bottomRevealLarge">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Unde facilis facere reiciendis dolorem.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/men/25.jpg"
+                      alt="foto de usuario"
+                    />
+                    André Oliveira
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial topRevealSmall">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+                    ex veritatis libero consequatur incidunt ullam qui
+                    laudantium, ipsa, corporis, eius vel aspernatur ratione
+                    recusandae nisi.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/men/64.jpg"
+                      alt="foto de usuario"
+                    />
+                    Roger Vasquez
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial topRevealMedium">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Eos esse asperiores commodi.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/25.jpg"
+                      alt="foto de usuario"
+                    />
+                    Sherry Gomez
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!------- CONTACT ------------>
+      <!-- <section class="contact grid" id="contact">
+        <div class="contact-container">
+          <div class="contact-content-data">
+            <h2 class="title-contact bottomRevealSmall">Entre em contato com a gente!</h2>
+            <div class="span-contact bottomRevealMedium">
+              <span><i class="bi bi-geo-alt"></i> R. Amauri Souza, 346</span>
+              <span
+                ><i class="bi bi-envelope "></i> contato@beautysalon.com</span
+              >
+            </div>
+            <button class="home-button bottomRevealLarge">
+              <i class="bi bi-whatsapp"></i> Agende sua consulta
+            </button>
+          </div>
+          <div class="contact-content-img topRevealLarge">
+            <img src="./assets/images/contato-home.svg" alt="" />
+          </div>
+        </div>
+      </section> -->
+    </main>
+
+    <!------- FOOTER ------------>
+    <footer>
+      <section class="footer grid">
+        <div class="footer-content">
+          <div class="footer-data">
+            <h2>Doctor<strong>Care</strong></h2>
+            <p>Copyright ©2024 All Rights Reserved.<br> Design & Developed by <a href="" id="trishna">Trishna</a></p>
+          </div>
+
+          <div class="footer-social">
+            <a href="#"><i class="bi bi-facebook nav-icon"></i></a>
+            <a href="#"><i class="bi bi-instagram nav-icon"></i></a>
+            <a href="#"><i class="bi bi-youtube nav-icon"></i></a>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    
+    <!------- SCROLL TOP ------------>
+    <a id="scrollup" class="back-top" href="#home">
+      <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="20" cy="20" r="20" fill="grey"/>
+        <path d="M20 27V13" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M13 20L20 13L27 20" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        
+    </a>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

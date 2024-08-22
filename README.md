@@ -1,45 +1,51 @@
 <h1 align="center">
-  DoctorCare 👨‍⚕️
+DoctorCare 👨‍⚕️
 </h1>
 
-<img src="https://raw.githubusercontent.com/EvanderInacio/DoctorCare/main/assets/images/doctor-care-one.vercel.app_.png">
+<img src="./pages/images/website.png" alt="DoctorCare Website Screenshot" style="display: block; margin-left: auto; margin-right: auto; max-width: 80%; height: auto;">
 
-## 📝 Descrição 
+## 📝 Description
 
-Um website da Clínica médica DoctorCare. Feita durante o evento da Rocketseat (NLW - Return)
+DoctorCare is a professional website designed for Dr. Alok Kalyani's medical clinic. The website provides essential information about the clinic's services, educational content, and contact details, offering patients an easy and intuitive way to connect with the clinic.
 
-- site final: [doctor-care-one.vercel.app/](https://doctor-care-one.vercel.app/)
+- **Live site:** [Visit DoctorCare](#) *(Add the actual URL here)*
 
-## 🚀 Tecnologias
+## 🚀 Technologies Used
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed using modern web development technologies to ensure high performance and responsiveness:
 
-- HTML
-- CSS
-- JavaScript
+- **HTML** - For the structure and content.
+- **CSS** - For the styling and layout.
+- **JavaScript** - For interactivity and dynamic content.
 
-## 📚 Bibliotecas
+## 📚 Libraries and Tools
 
-- [Google Fonts](https://fonts.google.com/)
-- [ScrollReveal](https://scrollrevealjs.org/)
+Several libraries and tools were utilized to enhance the development process and user experience:
 
+- [Google Fonts](https://fonts.google.com/) - To provide aesthetically pleasing typography.
+- [ScrollReveal](https://scrollrevealjs.org/) - For smooth and engaging animations on scroll.
+- [Bootstrap](https://getbootstrap.com/) *(Optional)* - For responsive design and layout.
 
-## 💻 Autor
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/EvanderInacio">
-        <img src="https://avatars.githubusercontent.com/u/72362299?s=96&v=4" width="100px;" /><br>
-        <sub>
-          <b>Evander Inácio</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
+## 💻 Author
+
+<table align="center">
+<tr>
+<td align="center">
+<a href="https://github.com/gaurav1021">
+<img src="./pages/images/Gaurav_Mangal.jpeg" width="120px;" alt="Gaurav Mangal"/><br>
+<sub>
+<b>Gaurav Mangal</b>
+</sub>
+</a>
+<p align="center">
+<a href="https://www.linkedin.com/in/gaurav-mangal-0141981a8/">
+<i class="bi bi-linkedin"></i> LinkedIn
+</a>
+</p>
+</td>
+</tr>
 </table>
 
 -----
 
-  <h3 align="center"> Developed by <a href="https://www.linkedin.com/in/evander-inacio/">Evander Inácio</a> ☕</h3>
-
-
+<h3 align="center"> Developed by <a href="https://www.linkedin.com/in/gaurav-mangal-0141981a8/">Gaurav Mangal</a> ☕</h3>
