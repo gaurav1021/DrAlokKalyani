@@ -15,7 +15,6 @@
 }
 
 
-
 @media (max-width:600px){
   .logo{
     margin-left:10px !important;
@@ -40,5 +39,31 @@
     padding-left:0px;
     padding-right:32px;
     gap:0.9rem !important;
+  }
+}
+
+@media (min-width:300px) and (max-width:400px){
+  .home-content{
+    height:40vh  ;
+  }
+}
+@media (min-width:400px) and (max-width:550px){
+  .home-content{
+    height:50vh  ;
+  }
+}
+@media (min-width:550px) and (max-width:700px){
+  .home-content{
+    height:55vh  ;
+  }
+}
+@media (min-width:700px) and (max-width:900px){
+  .home-content{
+    height:60vh  ;
+  }
+}
+@media (min-width:900px) and (max-width:1100px){
+  .home-content{
+    height:70vh  ;
   }
 }
